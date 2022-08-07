@@ -53,8 +53,8 @@ INSERT INTO Courses (CourseName)
 VALUES('Gaming')
 --Ex15
 UPDATE Students 
-SET Age =20 
-WHERE Age BETWEEN 70 AND 80
+SET Age =70 
+WHERE Age >80
 --EX16
 DELETE FROM Students WHERE Id=1
 --Ex17
